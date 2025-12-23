@@ -1,7 +1,7 @@
 import torch
 import torch.nn.functional as F
 
-from utils import build_char_index_maps
+from shared.utils import build_char_index_maps
 
 
 class SingleLayerBigramNN:

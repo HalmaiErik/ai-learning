@@ -1,7 +1,6 @@
 import torch
 
-from utils import build_char_index_maps
-
+from shared.utils import build_char_index_maps
 
 class Bigram:
     def __init__(self, words: list[str]):
